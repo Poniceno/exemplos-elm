@@ -1,0 +1,29 @@
+'atom-text-editor:not([mini])[data-grammar^="source elm"]':
+'f12': 'elmjutsu:go-to-definition'
+'ctrl-r': 'elmjutsu:go-to-symbol'
+'shift-f12': 'elmjutsu:find-usages'
+'f8': 'elmjutsu:go-to-next-usage'
+'shift-f8': 'elmjutsu:go-to-previous-usage'
+'ctrl-f12': 'elmjutsu:go-back'
+'alt-insert': 'elmjutsu:add-import'
+'f2': 'elmjutsu:rename-symbol'
+'alt-l': 'elmjutsu:surround-with-let'
+'alt-shift-l': 'elmjutsu:lift-to-let'
+'alt-t': 'elmjutsu:lift-to-top-level'
+
+'atom-text-editor:not([mini])':
+'alt-right': 'intentions:show'
+
+'atom-workspace':
+'f1': 'elmjutsu:toggle-sidekick'
+'ctrl-shift-f12': 'elmjutsu:hide-usages-panel'
+
+'atom-text-editor':
+'alt-enter': 'elmjutsu:eval'
+'ctrl-enter': 'elmjutsu:pipe-selections'
+'alt-up': 'expand-region:expand'
+'alt-down': 'expand-region:shrink'
+
+
+'.elmjutsu-pipe-selections':
+"ctrl-enter": "elmjutsu:apply-pipe-selections"
